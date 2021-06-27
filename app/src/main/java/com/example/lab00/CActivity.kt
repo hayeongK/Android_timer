@@ -67,7 +67,7 @@ class CActivity : AppCompatActivity() {
         isRunning = false // 현재 진행중인지 판별하기 위한 Boolean변수 false 세팅
         txtTime.text = "00 : 00 : 00"
 
-        //lap_Layout.removeAllViews() // Layout에 추가한 기록View 모두 삭제
+        lap_layout.removeAllViews() // Layout에 추가한 기록View 모두 삭제
         index = 1
     }
     fun lapTime(){
